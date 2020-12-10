@@ -60,6 +60,18 @@
 - 2차 구현 : 20.11.22 - 20.12.05 
 
 
+# 기술스택 & 툴
+### Front-End
+- HTML
+- CSS
+- Javascript
+### 협업
+- git/github
+- Slack
+### 개발 프로세스
+- Agile - Scrum
+
+
 # 팀원
 - [김어진](https://github.com/Alex-Eojin) - 기획, 2,3 페이지 HTML/CSS/JS,<br>
  2차 구현(2,3 페이지 리팩토링, 6 장르 페이지 추가, 6,7 페이지 페이지네이션 추가)
