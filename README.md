@@ -82,9 +82,9 @@
 <br>
 
 # 팀원
-- [김어진](https://github.com/Alex-Eojin) - 기획, 2,3 페이지 HTML/CSS/JS,<br>
+- [김어진](https://github.com/Alex-Eojin) - 기획, 2,3 페이지 HTML/CSS/Javascript,<br>
  2차 구현(2,3 페이지 리팩토링, 6 장르 페이지 추가, 6,7 페이지 페이지네이션 추가)
-- [박상언](https://github.com/parksaneon) - 기획, 4,5 페이지 HTML/CSS/JS, 전반적인 진행사항 QA역할
-- [원진솔](https://github.com/do-mandoo) - 기획, 1 페이지 HTML/CSS/JS, github 관리
-- [이한슬](https://github.com/hanseul-lee) - 기획, 5,7,8 페이지 HTML/CSS/JS, <Br>
+- [박상언](https://github.com/parksaneon) - 기획, 4,5 페이지 HTML/CSS/Javascript, 전반적인 진행사항 QA역할
+- [원진솔](https://github.com/do-mandoo) - 기획, 1 페이지 HTML/CSS/Javascript, github 관리
+- [이한슬](https://github.com/hanseul-lee) - 기획, 5,7,8 페이지 HTML/CSS/Javascript, <Br>
 2차 구현(2,3 페이지 리팩토링, 6 장르 페이지 추가, 6,7 페이지 페이지네이션 추가)
