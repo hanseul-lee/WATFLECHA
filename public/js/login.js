@@ -37,7 +37,8 @@ $loginButton.onclick = async () => {
 
     //json가져와서(GET) 객체로 풀기(json())
     const res = await fetch(`/users/${$loginId.value}`);
-    users = await res.json();
+    console.warn(res);
+    users = res.json;
 
     //db의 id, pw 와 입력창의 id,pw가 같으면 추출. 추출된 값의 길이를 변수에 할당.
     const errorMessage = (elementNode) => {
@@ -68,9 +69,9 @@ $loginButton.onclick = async () => {
 
     if(errorcount > 0) return;
     saveLogin = $loginRememberCheck.checked;
-    
+    console.warn(xhr.responseText)
     //id,pw입력창이 db의 id,pw와 같고 로그인 버튼을 누르면 main으로 이동.
-    localStorage.setItem('login',
+    localStorage.setItem("login",
     JSON.stringify({
       id: users.id,
       name: users.name,
@@ -78,16 +79,17 @@ $loginButton.onclick = async () => {
       savelog: saveLogin,
       curlog: true
     }));
-
-    localUser = JSON.parse(localStorage.getItem('login'));
-    window.location.href="http://localhost:3000/html/main.html"
+    
+    console.warn(xhr.responseText)
+    localUser = JSON.parse(localStorage.getItem("login"));
+    window.location.href="/html/main.html"
   }catch(err) {
     console.error('[ERROR~!]', err);
   }
 }
 //회원가입 버튼 클릭시 signUp으로 이동.
 $signUpGo.onclick = () => {
-  window.location.href = "http://localhost:3000/html/signUp.html"
+  window.location.href = "/html/signUp.html"
 }
 
 //로드될때 localStorage 가져와서 객체로 풀기.
